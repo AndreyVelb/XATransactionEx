@@ -1,0 +1,2 @@
+GRANT ALL PRIVILEGES ON *.* TO 'second_db_user'@'%' ;
+FLUSH PRIVILEGES;

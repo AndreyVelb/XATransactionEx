@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="18.02.2023--1--create-db1_table" author="avelb">
+        <sqlFile path="db/changelog/v_1_0_0/first_db/1_create_table_db1.sql"/>
+    </changeSet>
+
+</databaseChangeLog>
